@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Grafico</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="chart">
+            <canvas id="barchart" width="340px" height=340px"></canvas>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="chart">
+            <canvas id="doughnut" width="340px" height="340px"></canvas>
+        </div>
+
+    </div>
+
+    <div class="botao-container">
+
+        <button id="botao_um">COMIDA</button>
+        <button id="botao_dois">EU</button>
+        <button id="botao_tres">FIXO</button>
+        <button id="botao_quatro">OUTROS</button>
+
+    </div>
+
+    <!-- Escrita De Gastos -->
+    <div class="gastos-um">
+        <div class="button-text-esquerda" id="comida">
+            <p>-> Gastei com X = 29.90</p>
+        </div>
+        <div class="button-text-esquerda" id="eu">
+            <p>-> Gastei com Y = 2.09</p>
+        </div>
+    </div>
+
+    <div class="gastos-dois">
+        <div class="button-text-direita" id="fixo">
+            <p>-> Gastei com Z = 90.08</p>
+        </div>
+        <div class="button-text-esquerda" id="outros">
+            <p>-> Gastei com W = 10</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="Grafico1.js"></script>
+    <script src="Grafico2.js"></script>
+    <script src="codigo-font.js"></script>
+
+</body>
+</html>
